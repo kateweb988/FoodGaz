@@ -1,0 +1,1398 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+	<!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" /> -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+
+	<title>FoodGaz</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<!-- Favicon -->
+	<!-- <link rel="icon" href="img/fav.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/fav.png" type="image/x-icon"> -->
+	<!-- OG -->
+	<meta property="og:locale" content="ru-Ru">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vjik/arcticModal@master/arcticmodal/jquery.arcticmodal.css">
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body>
+	<div class="body-wrap">
+		<div class="menu">
+			<button class="menu__close " id="toggleMenu">
+				<img src="img/bur2.svg" alt="">
+			</button>
+			<ul class="nav__list">
+				<li>
+					<a href="#main" class="go_to">
+						Продукция
+					</a>
+				</li>
+				<li>
+					<a href="#info" class="go_to">
+						О нас
+					</a>
+				</li>
+				<li>
+					<a href="#why" class="go_to">
+						Преимущества
+					</a>
+				</li>
+				<li>
+					<a href="#footer" class="go_to">
+						Контакты
+					</a>
+				</li>
+			</ul>
+			<div class="menu__bottom">
+				<div class="nav__area">
+					<img src="img/tel.svg" alt="">
+					<div>
+						<a href="tel:+79802010090" class="nav__tel">
+							+7 980 201-00-90
+						</a>
+						<a href="mailto:zakaz@foodgaz.ru" class="nav__mail">
+							zakaz@foodgaz.ru
+						</a>
+					</div>
+				</div>
+				<div class="nav__area">
+					<img src="img/tel2.svg" alt="">
+					<div>
+						<p>
+							г. Москва, ул. Кусковская, 20А, пом. 1/1а
+						</p>
+					</div>
+				</div>
+				<a href="#" class="nav__btn btn">
+					Получить консультацию
+				</a>
+			</div>
+		</div>
+		<header class="header" id="header">
+			<nav class="nav">
+				<div class="nav__top">
+					<div class="container">
+						<div class="nav__local q">
+							<img src="img/local.svg" alt="">
+							<p>
+								г. Москва, ул. Кусковская, 20А, пом. 1/1а
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="nav__wrap">
+					<div class="container">
+						<div class="nav__box q">
+							<a href="index.html" class="nav__logo">
+								<img src="img/logo.png" alt="">
+							</a>
+							<p class="nav__sub">
+								Пищевые газы <br>
+								и газовые смеси
+							</p>
+							<ul class="nav__list">
+								<li>
+									<a href="#main" class="go_to">
+										Продукция
+									</a>
+								</li>
+								<li>
+									<a href="#info" class="go_to">
+										О нас
+									</a>
+								</li>
+								<li>
+									<a href="#why" class="go_to">
+										Преимущества
+									</a>
+								</li>
+								<li>
+									<a href="#footer" class="go_to">
+										Контакты
+									</a>
+								</li>
+							</ul>
+							<div class="nav__info q">
+								<div class="nav__area">
+									<img src="img/tel.svg" alt="">
+									<div>
+										<a href="tel:+79802010090" class="nav__tel">
+											+7 980 201-00-90
+										</a>
+										<a href="mailto:zakaz@foodgaz.ru" class="nav__mail">
+											zakaz@foodgaz.ru
+										</a>
+									</div>
+								</div>
+								<div class="nav__socials q">
+									<a href="tel:+79802010090">
+										<img src="img/mob.svg" alt="" class="svg">
+									</a>
+									<a href="#" target="_blank">
+										<img src="img/soc1.svg" alt="" class="svg">
+									</a>
+									<a href="#" target="_blank">
+										<img src="img/soc2.svg" alt="" class="svg">
+									</a>
+								</div>
+								<a href="#" class="nav__btn btn">
+									Получить консультацию
+								</a>
+							</div>
+							<div class="menu-btn"></div>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="container">
+				<div class="header__wrap">
+					<div class="header__content">
+						<p class="header__sub">
+							Для вашего производства
+						</p>
+						<h1>
+							Пищевые газы <br> и газовые смеси
+						</h1>
+						<ul>
+							<li>
+								<img src="img/list.svg" alt="">
+								<p>
+									Высокое качество
+								</p>
+							</li>
+							<li>
+								<img src="img/list.svg" alt="">
+								<p>
+									Сертификация
+								</p>
+							</li>
+							<li>
+								<img src="img/list.svg" alt="">
+								<p>
+									Быстрая поставка
+								</p>
+							</li>
+						</ul>
+						<div class="header__links q">
+							<a href="#" class="header__btn btn">
+								Оставить заявку <div> <img src="img/btn.svg" alt="" class="svg"> </div>
+							</a>
+							<a href="#" class="header__btn2 btn">
+								Подробнее о продукции <div> <img src="img/btn2.svg" alt="" class="svg"> </div>
+							</a>
+						</div>
+					</div>
+					<picture>
+						<source srcset="img/main2.png" media="(max-width: 768px)">
+						<img src="img/main1.png" alt="" class="header__img">
+					</picture>
+				</div>
+			</div>
+		</header>
+		<main class="main" id="main">
+			<div class="container">
+				<h2>
+					Газовые смеси для пищевой <br> промышленности
+				</h2>
+				<div class="main__wrap">
+					<div class="main__row q">
+						<div class="main__item">
+							<div class="main__image">
+								<img src="img/main.png" alt="">
+							</div>
+							<div class="main__content">
+								<p class="main__name">
+									Смесь газовая пищевая упаковочная
+									N₂ + CO₂
+								</p>
+								<p class="main__text">
+									Для упаковки готовой еды, полуфабрикатов, кулинарных изделий, молочных продуктов,
+									хлебобулочных
+									изделий.
+								</p>
+								<div class="main__info q">
+									<div class="main__left">
+										<small>
+											Цена за баллон
+										</small>
+										<p>
+											<span> от</span> 1 650 <span> ₽</span>
+										</p>
+									</div>
+									<a href="#" class="main__btn btn">
+										Подробнее <div> <img src="img/btn.svg" alt="" class="svg"> </div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="main__item">
+							<div class="main__image">
+								<img src="img/main3.png" alt="">
+							</div>
+							<div class="main__content">
+								<p class="main__name">
+									Смесь газовая пищевая упаковочная <br>
+									O₂ + CO₂
+								</p>
+								<p class="main__text">
+									Для упаковки свежего красного мяса, мясного фарша, птицы, рыбы, морепродуктов и изделий из
+									свежего теста.
+								</p>
+								<div class="main__info q">
+									<div class="main__left">
+										<small>
+											Цена за баллон
+										</small>
+										<p>
+											<span> от</span> 1 650 <span> ₽</span>
+										</p>
+									</div>
+									<a href="#" class="main__btn  btn">
+										Подробнее <div> <img src="img/btn.svg" alt="" class="svg"> </div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="main__item">
+							<div class="main__image">
+								<img src="img/main4.png" alt="">
+							</div>
+							<div class="main__content">
+								<p class="main__name">
+									Смесь газовая пищевая <br>
+									трехкомпонентная упаковочная <br>
+									N₂ + CO₂ + O₂
+								</p>
+								<p class="main__text">
+									Для упаковки овощей, фруктов, красного мяса, нежирной и красной рыбы.
+								</p>
+								<div class="main__info q">
+									<div class="main__left">
+										<small>
+											Цена за баллон
+										</small>
+										<p>
+											<span> от</span> 1 650 <span> ₽</span>
+										</p>
+									</div>
+									<a href="#" class="main__btn  btn">
+										Подробнее <div> <img src="img/btn.svg" alt="" class="svg"> </div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="main__wrap">
+					<h2>
+						Пищевые газы
+					</h2>
+					<div class="main__row q">
+						<div class="main__item">
+							<div class="main__image">
+								<img src="img/main5.png" alt="">
+							</div>
+							<div class="main__content">
+								<p class="main__name">
+									Азот N₂ (пищевая добавка E941)
+								</p>
+								<p class="main__text">
+									Используется для вытеснения из упаковки кислорода и нормализации атмосферы внутри неё.
+								</p>
+								<div class="main__info q">
+									<div class="main__left">
+										<small>
+											Цена за баллон
+										</small>
+										<p>
+											<span> от</span> 1 650 <span> ₽</span>
+										</p>
+									</div>
+									<a href="#" class="main__btn btn">
+										Подробнее <div> <img src="img/btn.svg" alt="" class="svg"> </div>
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="main__item">
+							<div class="main__image">
+								<img src="img/main6.png" alt="">
+							</div>
+							<div class="main__content">
+								<p class="main__name">
+									Углекислый газ CO₂ (пищевая добавка E290)
+								</p>
+								<p class="main__text">
+									Используется как консервант для продуктов
+									питания, для карбонизации (насыщения пива
+									углекислым газом), для газации напитков.
+								</p>
+								<div class="main__info q">
+									<div class="main__left">
+										<small>
+											Цена за баллон
+										</small>
+										<p>
+											<span> от</span> 1 650 <span> ₽</span>
+										</p>
+									</div>
+									<a href="#" class="main__btn  btn">
+										Подробнее <div> <img src="img/btn.svg" alt="" class="svg"> </div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<section class="pay" id="pay">
+			<div class="container">
+				<h2>
+					Стоимость доставки
+				</h2>
+				<div class="pay__box q">
+					<div class="pay__row q">
+						<div class="pay__item">
+							<div class="pay__block">
+								<img src="img/pay1.png" alt="">
+								<div class="pay__flex q">
+									<p>
+										ГАЗель
+									</p>
+									<span>
+										до 23 баллонов
+									</span>
+								</div>
+							</div>
+							<div class="pay__content">
+								<div class="pay__el q">
+									<p>
+										В пределах МКАД
+									</p>
+									<p>
+										2 500 ₽
+									</p>
+								</div>
+								<div class="pay__el q">
+									<p>
+										До 20 км
+									</p>
+									<p>
+										2 800 ₽
+									</p>
+								</div>
+								<div class="pay__el q">
+									<p>
+										20 — 40 км
+									</p>
+									<p>
+										3 100 ₽
+									</p>
+								</div>
+								<div class="pay__el q">
+									<p>
+										40 — 60 км
+									</p>
+									<p>
+										3 800 ₽
+									</p>
+								</div>
+								<div class="pay__el q">
+									<p>
+										60 — 80 км
+									</p>
+									<p>
+										4 500 ₽
+									</p>
+								</div>
+								<div class="pay__el q">
+									<p>
+										80 — 100 км
+									</p>
+									<p>
+										5 700 ₽
+									</p>
+								</div>
+								<div class="pay__el q">
+									<p>
+										100+ км
+									</p>
+									<p>
+										инидвидуальный расчет
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="pay__item">
+							<div class="pay__block">
+								<img src="img/pay2.png" alt="">
+								<div class="pay__flex q">
+									<p>
+										Манипулятор
+									</p>
+									<span>
+										до 115 баллонов
+									</span>
+								</div>
+							</div>
+							<div class="pay__content">
+								<div class="pay__el q">
+									<p>
+										До 50 км
+									</p>
+									<p>
+										6 000 ₽
+									</p>
+								</div>
+								<div class="pay__el q">
+									<p>
+										50 — 60 км
+									</p>
+									<p>
+										7 000 ₽
+									</p>
+								</div>
+								<div class="pay__el q">
+									<p>
+										60 — 70 км
+									</p>
+									<p>
+										8 000 ₽
+									</p>
+								</div>
+								<div class="pay__el q">
+									<p>
+										70 — 80 км
+									</p>
+									<p>
+										9 000 ₽
+									</p>
+								</div>
+								<div class="pay__el q">
+									<p>
+										80 — 90 км
+									</p>
+									<p>
+										10 000 ₽
+									</p>
+								</div>
+								<div class="pay__el q">
+									<p>
+										10 000 ₽
+									</p>
+									<p>
+										11 000 ₽
+									</p>
+								</div>
+								<div class="pay__el q">
+									<p>
+										100+ км
+									</p>
+									<p>
+										инидвидуальный расчет
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="pay__info">
+						<div class="pay__get">
+							<div class="pay__top q">
+								<img src="img/pay1.svg" alt="">
+								<p>
+									Срочная доставка
+								</p>
+							</div>
+							<div class="pay__list">
+								<ul>
+									<li class="q">
+										<img src="img/list2.svg" alt="">
+										<p>
+											Доставка в течение 4 часов — +30% к тарифу
+										</p>
+									</li>
+									<li class="q">
+										<img src="img/list2.svg" alt="">
+										<p>
+											Ночная доставка (23:00-6:00) — без доплат <br> при заказе от 50 баллонов
+										</p>
+									</li>
+									<li class="q">
+										<img src="img/list2.svg" alt="">
+										<p>
+											100+ км — индивидуальный расчет
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="pay__get">
+							<div class="pay__top q">
+								<img src="img/pay2.svg" alt="">
+								<p>
+									Доставка в регионы
+								</p>
+							</div>
+							<div class="pay__list">
+								<ul>
+									<li class="q">
+										<img src="img/list2.svg" alt="">
+										<p>
+											Московская область — по стандартным тарифам
+										</p>
+									</li>
+									<li class="q">
+										<img src="img/list2.svg" alt="">
+										<p>
+											Соседние регионы (до 300 км) — от 30 000 ₽
+										</p>
+									</li>
+									<li class="q">
+										<img src="img/list2.svg" alt="">
+										<p>
+											Дальние регионы — расчет по запросу
+										</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="info" id="info">
+			<div class="container">
+				<h2>
+					Надежный поставщик <br> пищевых газов
+				</h2>
+				<div class="info__box q">
+					<div class="info__item">
+						<div class="info__left">
+							<h3>
+								Производство <br> и логистика
+							</h3>
+							<ul>
+								<li>
+									<img src="img/li3.svg" alt="">
+									<p>
+										Две современные производственные площадки.
+									</p>
+								</li>
+								<li>
+									<img src="img/li3.svg" alt="">
+									<p>
+										Собственный автопарк (30+ единиц спецтехники) для оперативной доставки 24/7.
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="info__right">
+							<img src="img/info1.png" alt="">
+						</div>
+					</div>
+					<div class="info__item">
+						<div class="info__left">
+							<h3>
+								Экспертиза в пищевой индустрии
+							</h3>
+							<ul>
+								<li>
+									<img src="img/li3.svg" alt="">
+									<p>
+										Подбор газовых смесей для упаковки мяса, сыров, готовых блюд, напитков и других продуктов
+										питания.
+									</p>
+								</li>
+								<li>
+									<img src="img/li3.svg" alt="">
+									<p>
+										Монтаж газопроводных систем для производственных цехов (например, для мясоперерабатывающих
+										предприятий).
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="info__right">
+							<img src="img/info2.png" alt="">
+						</div>
+					</div>
+					<div class="info__item">
+						<div class="info__left">
+							<h3>
+								Стандарты и сервис
+							</h3>
+							<ul>
+								<li>
+									<img src="img/li3.svg" alt="">
+									<p>
+										Соблюдение пищевых стандартов (ГОСТ, ТУ).
+									</p>
+								</li>
+								<li>
+									<img src="img/li3.svg" alt="">
+									<p>
+										Индивидуальные решения под задачи клиента.
+									</p>
+								</li>
+								<li>
+									<img src="img/li3.svg" alt="">
+									<p>
+										Быстрая доставка и надежная инфраструктура.
+									</p>
+								</li>
+							</ul>
+						</div>
+						<div class="info__right">
+							<img src="img/info3.png" alt="">
+						</div>
+					</div>
+					<div class="info__item">
+						<div class="info__left">
+							<h3>
+								Получите консультацию <br> по услугам компании
+							</h3>
+							<a href="#" class="header__btn2 btn">
+								Задать вопрос <div> <img src="img/btn2.svg" alt="" class="svg"> </div>
+							</a>
+						</div>
+						<img src="img/info4.png" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="trust" id="trust">
+			<div class="container">
+				<h2>
+					Нам доверяют <br> ведущие производители
+				</h2>
+				<div class="swiper-button-prev1 arrow">
+					<img src="img/left.svg" alt="" class="svg">
+				</div>
+				<div class="swiper-button-next1 arrow">
+					<img src="img/right.svg" alt="" class="svg">
+				</div>
+				<div class="swiper1">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="img/logo1.svg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/logo2.svg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/logo3.svg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/logo4.svg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/logo1.svg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/logo2.svg" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="area" id="area">
+			<div class="container">
+				<div class="area__wrap">
+					<div class="area__top q">
+						<div class="area__content">
+							<h2>
+								Где используются <br> наши газы?
+							</h2>
+							<div class="area__el q">
+								<img src="img/area1.png " alt="">
+								<p>
+									Пищевые газовые смеси используются в пищевой промышленности для упаковки продуктов
+									в модифицированной газовой среде (MAP — Modified Atmosphere Packaging).
+								</p>
+							</div>
+							<div class="area__el q">
+								<img src="img/area2.png " alt="">
+								<p>
+									Основные газы для создания модифицированной газовой среды (МГС) — это двуокись углерода,
+									кислород и азот, смешанные в различных процентных соотношениях.
+								</p>
+							</div>
+						</div>
+						<picture>
+							<source srcset="img/area33.png" media="(max-width: 768px)">
+							<img src="img/area3.png" alt="" class="header__img">
+						</picture>
+					</div>
+					<div class="area__bottom">
+						<div class="area__item">
+							<img src="img/pic1.png" alt="">
+							<div class="area__info">
+								<p>
+									Упаковка мяса, рыбы, сыров, кулинарных изделий.
+								</p>
+								<span>
+									01
+								</span>
+							</div>
+						</div>
+						<div class="area__item">
+							<img src="img/pic2.png" alt="">
+							<div class="area__info">
+								<p>
+									Фасовка готовых блюд и рационов еды, включая воздушный кейтеринг и бортовое питание.
+								</p>
+								<span>
+									02
+								</span>
+							</div>
+						</div>
+						<div class="area__item">
+							<img src="img/pic3.png" alt="">
+							<div class="area__info">
+								<p>
+									Газирование напитков и карбонизация (насыщение) хмельных напитков.
+								</p>
+								<span>
+									03
+								</span>
+							</div>
+						</div>
+						<div class="area__item">
+							<img src="img/pic4.png" alt="">
+							<div class="area__info">
+								<p>
+									Создание защитной атмосферы и увеличение сроков хранения.
+								</p>
+								<span>
+									04
+								</span>
+							</div>
+						</div>
+						<div class="area__item">
+							<img src="img/pic5.png" alt="">
+							<div class="area__info">
+								<p>
+									Транспортировка скоропортящихся продуктов питания.
+								</p>
+								<span>
+									05
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="why" id="why">
+			<div class="container">
+				<div class="why__wrap">
+					<img src="img/star.svg" alt="" class="why__star">
+					<h2>
+						Почему выбирают нас?
+					</h2>
+					<div class="why__row q">
+						<div class="why__item">
+							<div class="why__top q">
+								<img src="img/why1.svg" alt="">
+								<p>
+									Бесперебойные поставки
+								</p>
+							</div>
+							<ul>
+								<li class="q">
+									<img src="img/li3.svg" alt="">
+									<p>
+										Круглосуточная доставка 24/7
+									</p>
+								</li>
+								<li class="q">
+									<img src="img/li3.svg" alt="">
+									<p>
+										Выполнение заявок в день обращения.
+									</p>
+								</li>
+							</ul>
+							<span>
+								01 — 04
+							</span>
+						</div>
+						<div class="why__item">
+							<div class="why__top q">
+								<img src="img/why2.svg" alt="">
+								<p>
+									Промышленные мощности
+								</p>
+							</div>
+							<ul>
+								<li class="q">
+									<img src="img/li3.svg" alt="">
+									<p>
+										2 современных завода – гарантия стабильных поставок любого объема.
+									</p>
+								</li>
+								<li class="q">
+									<img src="img/li3.svg" alt="">
+									<p>
+										Вся продукция сертифицирована.
+									</p>
+								</li>
+							</ul>
+							<span>
+								02 — 04
+							</span>
+						</div>
+						<div class="why__item">
+							<div class="why__top q">
+								<img src="img/why3.svg" alt="">
+								<p>
+									Безопасность и экологичность
+								</p>
+							</div>
+							<ul>
+								<li class="q">
+									<img src="img/li3.svg" alt="">
+									<p>
+										Регулярный контроль баллонного парка.
+									</p>
+								</li>
+								<li class="q">
+									<img src="img/li3.svg" alt="">
+									<p>
+										Экологически чистое сырьё.
+									</p>
+								</li>
+								<li class="q">
+									<img src="img/li3.svg" alt="">
+									<p>
+										Строгое соответствие ГОСТ (давление, вес, состав).
+									</p>
+								</li>
+							</ul>
+							<span>
+								03 — 04
+							</span>
+						</div>
+						<div class="why__item">
+							<div class="why__top q">
+								<p>
+									Премиум- <br> сервис
+								</p>
+							</div>
+							<ul>
+								<li class="q">
+									<img src="img/list2.svg" alt="">
+									<p>
+										Персональный менеджер-технолог 24/7.
+									</p>
+								</li>
+								<li class="q">
+									<img src="img/list2.svg" alt="">
+									<p>
+										Выполнение заявок в день обращения.
+									</p>
+								</li>
+								<li class="q">
+									<img src="img/list2.svg" alt="">
+									<p>
+										Гибкие финансовые условия (отсрочка).
+									</p>
+								</li>
+							</ul>
+							<span>
+								04 — 04
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="per" id="per">
+			<div class="container">
+				<div class="per__wrap">
+					<div class="per__content">
+						<h2>
+							Качество <br> и безопасность
+						</h2>
+						<ul>
+							<li>
+								<img src="img/list.svg" alt="">
+								<p>
+									Декларация о соответствии от 07.05.2025 ЕАЭС N RU Д-RU.РА04.В.20724/25.
+								</p>
+							</li>
+							<li>
+								<img src="img/list.svg" alt="">
+								<p>
+									Контроль каждой партии товара аттестованным газоанализатором.
+								</p>
+							</li>
+							<li>
+								<img src="img/list.svg" alt="">
+								<p>
+									Соответствие тары ГОСТ 949-73.
+								</p>
+							</li>
+							<li>
+								<img src="img/list.svg" alt="">
+								<p>
+									Регулярный технический контроль баллонного парка.
+								</p>
+							</li>
+						</ul>
+					</div>
+					<picture>
+						<source srcset="img/per2.png" media="(max-width: 768px)">
+						<img src="img/per1.png" alt="" class="per__img">
+					</picture>
+				</div>
+			</div>
+		</section>
+		<section class="scheme" id="scheme">
+			<div class="container">
+				<h2>
+					Схема сотрудничества
+				</h2>
+				<div class="scheme__box q">
+					<div class="scheme__content">
+						<div class="scheme__item">
+							<span>
+								1.
+							</span>
+							<p>
+								Заявка, консультация <br> технолога
+							</p>
+						</div>
+						<div class="scheme__item">
+							<span>
+								2.
+							</span>
+							<p>
+								Подбор состава газовой <br> смеси
+							</p>
+						</div>
+						<div class="scheme__item">
+							<span>
+								3.
+							</span>
+							<p>
+								Оплата заказа и оформление <br> документов
+							</p>
+						</div>
+						<div class="scheme__item">
+							<span>
+								4.
+							</span>
+							<p>
+								Доставка в течение <br> 24 часов
+							</p>
+						</div>
+					</div>
+					<picture>
+						<source srcset="img/scheme2.png" media="(max-width: 576px)">
+						<img src="img/scheme.png" alt="" class="scheme__pic">
+					</picture>
+				</div>
+			</div>
+		</section>
+		<section class="faq" id="faq">
+			<div class="container">
+				<div class="faq__box q">
+					<h2>
+						Ответы <br> на вопросы
+					</h2>
+					<div class="accordeon">
+						<div class="accordeon-container">
+							<li class="accordeon__item">
+								<div class="accordeon__button closed">Как подобрать газовую смесь?</div>
+								<ul class="accordeon__panel">
+									<li class="panel__text">
+										<p class="panel__info">
+											Для подбора газовой смеси рекомендуем использовать <a href="#"> таблицу подбора МГС</a>
+											или
+											проконсультироваться с нашим специалистом.
+										</p>
+									</li>
+								</ul>
+							</li>
+							<li class="accordeon__item">
+								<div class="accordeon__button closed">Какие документы предоставляются?</div>
+								<ul class="accordeon__panel">
+									<li class="panel__text">
+										<p class="panel__info">
+											Для подбора газовой смеси рекомендуем использовать таблицу подбора МГС или
+											проконсультироваться с нашим специалистом.
+										</p>
+									</li>
+								</ul>
+							</li>
+							<li class="accordeon__item">
+								<div class="accordeon__button closed">Как осуществляется доставка?</div>
+								<ul class="accordeon__panel">
+									<li class="panel__text">
+										<p class="panel__info">
+											Для подбора газовой смеси рекомендуем использовать таблицу подбора МГС или
+											проконсультироваться с нашим специалистом.
+										</p>
+									</li>
+								</ul>
+							</li>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="order" id="order">
+			<div class="container">
+				<picture>
+					<source srcset="img/man2.png" media="(max-width: 1200px)">
+					<img src="img/man.png" alt="" class="order__man">
+				</picture>
+				<div class="order__wrap">
+					<img src="img/bg.png" alt="" class="order__bg">
+					<div class="order__box">
+						<h2>
+							Оставьте заявку
+						</h2>
+						<form action="success.php" class="order__form js-form" id="popupResult" method="post">
+							<div class="order__row q">
+								<div class="order__item">
+									<label>
+										Имя
+									</label>
+									<input type="text" class="form__field" required="" name="name">
+								</div>
+								<div class="order__item">
+									<label>
+										ИНН организации
+									</label>
+									<input type="text" class="form__field" required="" name="inn">
+								</div>
+								<div class="order__item">
+									<label>
+										Телефон <span>*</span>
+									</label>
+									<input type="tel" class="form__field tel" required="" name="tel">
+								</div>
+								<div class="order__item">
+									<label>
+										Электронная почта
+									</label>
+									<input type="email" class="form__field" required="" name="email">
+								</div>
+								<div class="order__item">
+									<label>
+										Комментарий к заявке
+									</label>
+									<textarea name="text"></textarea>
+								</div>
+							</div>
+							<div class="order__flex q">
+								<button class="btn button order__btn">
+									Отправить заявку <div> <img src="img/btn.svg" alt="" class="svg"> </div>
+								</button>
+								<div class="checkbox q">
+									<input class="form-check-input custom-checkbox form-control" type="checkbox" name="check"
+										id="form1" value="Я даю свое согласие на обработку персональных данных" checked>
+									<label class="form-check-label " for="form1">
+										<span>
+											Нажимая на кнопку, вы даёте согласие <br> на <a href="#" target="_blank">обработку
+												ваших
+												персональных данных</a> 
+										</span>
+									</label>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ser" id="1ser">
+			<div class="container">
+				<h2>
+					Сопутствующие услуги
+				</h2>
+				<div class="ser__row q">
+					<div class="ser__item">
+						<img src="img/ser1.svg" alt="">
+						<p>
+							Аренда баллонов <br>
+							и моноблоков
+						</p>
+						<a href="#" class="ser__btn btn">
+							Оставить заявку <div> <img src="img/btn.svg" alt="" class="svg"> </div>
+						</a>
+					</div>
+					<div class="ser__item">
+						<img src="img/ser2.svg" alt="">
+						<p>
+							Техническая <br>
+							поддержка
+						</p>
+						<a href="#" class="ser__btn btn">
+							Оставить заявку <div> <img src="img/btn.svg" alt="" class="svg"> </div>
+						</a>
+					</div>
+					<div class="ser__item">
+						<img src="img/ser3.svg" alt="">
+						<p>
+							Разработка и монтаж <br>
+							газопроводных систем
+						</p>
+						<a href="#" class="ser__btn btn">
+							Оставить заявку <div> <img src="img/btn.svg" alt="" class="svg"> </div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer" id="footer">
+			<div class="container">
+				<div class="footer__box q">
+					<div class="footer__content">
+						<div class="footer__top q">
+							<div class="footer__info">
+								<a href="tel:+79802010090" class="footer__tel">
+									+7 980 201-00-90
+								</a>
+								<a href="mailto:zakaz@foodgaz.ru" class="footer__mail">
+									zakaz@foodgaz.ru
+								</a>
+							</div>
+							<div class="nav__socials q">
+								<a href="#" target="_blank">
+									<img src="img/soc1.svg" alt="" class="svg">
+								</a>
+								<a href="#" target="_blank">
+									<img src="img/soc2.svg" alt="" class="svg">
+								</a>
+							</div>
+						</div>
+						<div class="footer__area">
+							<h3>
+								Реквизиты компании:
+							</h3>
+							<div class="footer__item q">
+								<p>
+									Организация
+								</p>
+								<p>
+									ООО «ГК АБАС»
+								</p>
+							</div>
+							<div class="footer__item q">
+								<p>
+									ИНН
+								</p>
+								<p>
+									7720941967
+								</p>
+							</div>
+							<div class="footer__item q">
+								<p>
+									КПП
+								</p>
+								<p>
+									772001001
+								</p>
+							</div>
+							<div class="footer__item q">
+								<p>
+									ОГРН
+								</p>
+								<p>
+									1247700793207
+								</p>
+							</div>
+							<div class="footer__item q">
+								<p>
+									Банк
+								</p>
+								<p>
+									ПАО СБЕРБАНК г. Москва
+								</p>
+							</div>
+							<div class="footer__item q">
+								<p>
+									Р/с
+								</p>
+								<p>
+									40702810940000433417
+								</p>
+							</div>
+							<div class="footer__item q">
+								<p>
+									БИК
+								</p>
+								<p>
+									044525225
+								</p>
+							</div>
+						</div>
+					</div>
+					<div id="map"></div>
+					<div class="footer__block">
+						<span>
+							Находимся по адресу
+						</span>
+						<p>
+							111141, г.. Москва, вн.тер. г.. Муниципальный округ <br> Новогиреево, ул.. Кусковская, 20А, помещ.
+							1/1
+						</p>
+					</div>
+				</div>
+				<div class="footer__bottom q">
+					<p class="footer__text">
+						© 2025, ООО «ГК АБАС»
+					</p>
+					<div class="footer__line q">
+						<a href="#" target="_blank">
+							Политика конфиденциальности
+						</a>
+						<a href="#" target="_blank">
+							Согласие на обработку персональных данных
+						</a>
+						<div class="footer__com">
+							Создание сайта - <a href="#"> Site69.ru</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div style="display: none;">
+			<div class="box-modal" id="popup-call">
+				<div class="popup-call__box call">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close.svg" alt="">
+					</div>
+					<div class="order__box">
+						<h2>
+							Оставьте заявку
+						</h2>
+						<form action="success.php" class="order__form js-form" id="popupResult" method="post">
+							<div class="order__row q">
+								<div class="order__item">
+									<label>
+										Имя
+									</label>
+									<input type="text" class="form__field" required="" name="name">
+								</div>
+								<div class="order__item">
+									<label>
+										ИНН организации
+									</label>
+									<input type="text" class="form__field" required="" name="inn">
+								</div>
+								<div class="order__item">
+									<label>
+										Телефон <span>*</span>
+									</label>
+									<input type="tel" class="form__field tel" required="" name="tel">
+								</div>
+								<div class="order__item">
+									<label>
+										Электронная почта
+									</label>
+									<input type="email" class="form__field" required="" name="email">
+								</div>
+								<div class="order__item">
+									<label>
+										Комментарий к заявке
+									</label>
+									<textarea name="text"></textarea>
+								</div>
+							</div>
+							<div class="order__flex q">
+								<button class="btn button order__btn">
+									Отправить заявку <div> <img src="img/btn.svg" alt="" class="svg"> </div>
+								</button>
+								<div class="checkbox q">
+									<input class="form-check-input custom-checkbox form-control" type="checkbox" name="check"
+										id="form2" value="Я даю свое согласие на обработку персональных данных" checked>
+									<label class="form-check-label " for="form2">
+										<span>
+											Нажимая на кнопку, вы даёте согласие <br> на <a href="#" target="_blank">обработку
+												ваших
+												персональных данных</a> 
+										</span>
+									</label>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<script type="text/javascript">
+		ymaps.ready(init);
+
+		function init() {
+			var myMap = new ymaps.Map("map", {
+				// Центр карты, указываем коордианты
+				center: [55.73996, 37.78281],
+				// Масштаб, тут все просто
+				zoom: 13,
+				// Отключаем все элементы управления
+				controls: []
+			});
+
+			var myGeoObjects = [];
+
+			// Наша метка, указываем коордианты
+			myGeoObjects = new ymaps.Placemark([55.73996, 37.78281], {
+				balloonContentBody: 'FoodGaz',
+			}, {
+				iconLayout: 'default#image',
+				// Путь до нашей картинки
+				iconImageHref: 'img/map.svg',
+				// Размер по ширине и высоте
+				iconImageSize: [170, 180],
+				// Смещение левого верхнего угла иконки относительно
+				// её «ножки» (точки привязки).
+				iconImageOffset: [-35, -35]
+			});
+
+			var clusterer = new ymaps.Clusterer({
+				clusterDisableClickZoom: false,
+				clusterOpenBalloonOnClick: false,
+			});
+
+			clusterer.add(myGeoObjects);
+			myMap.geoObjects.add(clusterer);
+			// Отлючаем возможность изменения масштаба
+			myMap.behaviors.disable('scrollZoom');
+
+		}
+	</script>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js?ver=5.1"></script>
+	<script src="js/all.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/vjik/arcticModal@master/arcticmodal/jquery.arcticmodal.js"></script>
+	<!-- Подключен файл-валидатор, для проверки формы на заполненность  -->
+	<script type="text/javascript"
+		src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+</body>
+
+</html>

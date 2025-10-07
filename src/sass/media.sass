@@ -1,0 +1,595 @@
+@media screen and (max-width: 1350px)
+   .nav__list
+      margin-left: 35px
+   h1 
+      font-size: 55px
+   .main__content
+      height: 282px
+   .pay__list li p
+      br 
+         display: none
+   .info__box, .scheme__content
+      gap: 11px
+   .scheme__item
+      height: 226px
+   .footer__box #map
+      max-width: 62%
+@media screen and (max-width: 1199px)
+   .menu-btn, .menu
+      display: block
+   .menu-btn 
+      width: 40px
+      height: 40px
+      position: absolute
+      left: 0px
+      top: 37px
+      z-index: 11
+      overflow: hidden
+      background: url(/img/bur1.svg) no-repeat center center
+      &.active 
+         opacity: 0
+   .menu-btn span 
+      width: 38px
+      height: 2px
+      position: absolute
+      top: 50%
+      left: 50%
+      transform: translate(-50%, -50%)
+      background-color: white
+      transition: all 0.5s
+      margin-left: 5px
+   .menu-btn span:nth-of-type(2) 
+      top: calc(50% - 8.5px)
+      width: 48px
+      height: 2px
+      margin-left: 0
+   .menu-btn span:nth-of-type(3) 
+      top: calc(50% + 9.4px)
+      width: 24px
+      height: 2px
+      margin-left: 12px
+   body.menu-active 
+      position: relative
+      overflow: hidden
+      &:after 
+         content: ""
+         display: block
+         position: absolute
+         background: rgba(42, 52, 62, 0.9)
+         right: 0
+         top: 0
+         height: 100%
+         right: 0%
+         width: 100%
+         z-index: 20
+   .menu
+      position: fixed
+      top: 0px
+      left: 0
+      width: 70%
+      height: 100%
+      transform: translateX(-200%)
+      transition: transform 0.5s
+      z-index: 100
+      padding: 20px 12px
+      border-radius: 0px 24px 24px 0px
+      background: rgba(255, 255, 255, 1)
+      display: flex
+      flex-direction: column 
+      align-items: flex-start
+      &.active 
+         transform: translateX(0%)
+      .nav__list 
+         display: block
+         li 
+            margin-bottom: 12px
+            a 
+               color: rgba(26, 26, 26, 1)
+               font-size: 18px
+               font-weight: 600
+               line-height: 22px
+      &__bottom 
+         margin-top: auto
+         padding: 12px
+         width: 100%
+         box-sizing: border-box
+         border: 1px solid rgba(224, 224, 224, 1)
+         border-radius: 20px
+         .nav__area
+            width: 100%
+            display: flex
+            margin-bottom: 4px
+            p 
+               font-size: 14px
+         .nav__btn
+            display: flex
+            width: 100%
+            text-align: center
+            justify-content: center
+   #toggleMenu
+      background: transparent
+      border: none
+      position: absolute
+      right: -73px
+   .menu-btn.active span:nth-of-type(1) 
+      display: none
+   .menu-btn.active span:nth-of-type(2) 
+      top: 50%
+      width: 24px
+      transform: translate(-50%, 0%) rotate(45deg)
+   .menu-btn.active span:nth-of-type(3) 
+      width: 24px
+      top: 50%
+      transform: translate(-50%, 0%) rotate(-44deg)
+   .nav__top, .nav__sub, .nav__list, .nav__btn, .nav__area
+      display: none
+   .nav__logo
+      padding-right: 0
+      margin-right: 0
+      margin-left: 80px
+      &:after 
+         display: none
+   .nav .nav__socials a:first-child
+      display: flex
+   .nav__box
+      position: relative
+   .header__wrap
+      flex-direction: column-reverse
+   .header__content 
+      width: 100%
+      max-width: 100%
+      margin-top: 24px
+   .main h2
+      margin-bottom: 32px
+   .main__row
+      gap: 12px 
+      flex-direction: column
+   .main__item
+      width: 100%
+   .main__wrap
+      margin-bottom: 80px
+   .pay h2
+      margin-bottom: 32px
+   .pay__box
+      flex-direction: column
+   .pay__row
+      margin-bottom: 12px
+      max-width: 100%
+   .pay__info
+      max-width: 100%
+   .pay__list
+      margin-top: 0
+      padding-top: 12px
+      padding-left: 12px
+      padding-right: 12px
+   .pay__get
+      height: auto
+   .pay__top
+      padding: 12px
+   .pay
+      padding: 40px 0
+   .info
+      padding: 40px 0
+   .info h2
+      margin-bottom: 32px
+   .info__item
+      width: 100%
+   .info__item:last-child
+      height: 250px
+   .info__item:last-child img
+      bottom: -34px
+   .trust
+      padding: 40px 0
+   .trust h2
+      margin-bottom: 32px
+   .trust .arrow
+      display: none
+   .trust .swiper1
+      width: 100%
+      overflow: visible
+   .area__top
+      padding: 12px
+      flex-direction: column 
+      align-items: flex-start
+   .area__content
+      max-width: 100%
+   .area__el
+      margin-bottom: 34px
+   .area 
+      picture 
+         margin: 56px auto 0
+   .area__info
+      padding: 12px
+      background: transparent
+   .area__bottom
+      flex-direction: column
+      padding: 12px
+   .area__item
+      border-radius: 24px
+      background: rgba(241, 241, 241, 1)
+      display: flex
+      width: 100%
+      margin-bottom: 10px
+      &:last-child
+         margin-bottom: 0
+   .area
+      margin-bottom: 40px
+   .why
+      padding: 40px 0
+   .why h2
+      margin-bottom: 32px
+   .why__row
+      flex-direction: column
+   .why__item
+      width: 100%
+      margin-bottom: 8px
+      height: auto
+   .why__item span
+      margin-top: 24px
+   .per
+      padding: 48px 0
+   .per__wrap
+      padding: 12px
+   .per__img
+      left: 0
+      top: 0
+      position: relative
+      margin: 30px auto 0
+      display: block
+   .scheme
+      padding: 40px 0
+   .scheme h2
+      margin-bottom: 32px
+   .scheme picture
+      max-width: 100%
+   .scheme__item
+      height: auto
+      width: 100%
+      display: flex
+      padding: 12px
+      align-items: center
+      flex-direction: inherit
+   .scheme__item span
+      font-size: 50px
+      line-height: 100%
+   .scheme__box
+      flex-direction: column
+   .scheme__content
+      max-width: 100%
+   .scheme__item p
+      margin: 0 0 0 24px
+   .scheme__pic
+      max-width: 100%
+   .faq
+      padding: 40px 0
+      h2 
+         text-align: center
+         margin-bottom: 32px
+         width: 100%
+   .faq__box
+      flex-direction: column 
+      align-items: flex-start
+   .faq .accordeon
+      max-width: 100%
+   .faq .accordeon__item
+      padding-bottom: 0
+   .faq .accordeon__button
+      padding: 12px 60px 12px 12px
+      font-size: 18px
+      line-height: 22px
+      min-height: 72px
+   .faq .accordeon__button:after
+      top: 12px
+      right: 12px
+   .faq .panel__info
+      padding-bottom: 12px
+      padding-left: 12px
+   .faq .accordeon__button.active
+      padding-top: 12px
+      padding-bottom: 12px
+   .order
+      margin: 40px 0
+      picture 
+         margin: 0 auto
+   .order__wrap
+      padding: 12px 12px 300px
+   .order__box
+      padding: 12px
+      width: 100%
+   .order__man
+      right: 50%
+      margin-right: -155px
+   .order__form textarea
+      height: 52px
+   .ser
+      padding: 40px 0
+   .ser h2
+      margin-bottom: 32px
+   .footer
+      padding: 40px 0 24px
+   .footer__box
+      margin-bottom: 24px
+      flex-direction: column
+   .footer__content
+      margin-bottom: 12px
+      max-width: 100%
+   .footer__box #map
+      max-width: 100%
+   .footer__bottom
+      align-items: start
+      flex-direction: column
+   .footer__line
+      align-items: flex-start
+      flex-direction: column
+   .footer__com
+      margin-left: 0
+   .footer__line a
+      margin-bottom: 8px
+      margin-right: 0 !important
+   .footer__text
+      margin-bottom: 24px
+@media ( max-width: 991px )
+   input, textarea, select
+      -webkit-appearance: none
+      -moz-appearance: none
+      appearance: none
+   .header__img
+      width: 100%
+   h1 
+      font-size: 40px
+      line-height: 110%
+   .header__content h1
+      margin-bottom: 16px
+   .header__content ul
+      margin-bottom: 24px
+   h2 
+      font-size: 35px
+      line-height: 110%
+   .pay__row
+      flex-direction: column
+   .pay__item
+      padding: 12px
+      width: 100%
+      &:first-child
+         .pay__el:last-child
+            border-bottom: 1px solid #d3e6da
+            padding-bottom: 12px
+   .pay__item:first-child:after
+      display: none
+   .area__item img
+      height: 200px
+   .why__top
+      padding: 12px
+      margin-bottom: 12px
+   .per__img
+      width: 100%
+   .ser__row
+      flex-direction: column
+   .ser__item
+      padding: 12px
+      height: auto
+      width: 100%
+      margin-bottom: 12px
+      &:last-child
+         margin-bottom: 0
+   .ser__item a
+      margin-top: 48px
+   .popup-call__box
+      width: 100%
+      left: 0
+      margin-left: 0
+   .arcticmodal-container_i, .arcticmodal-container_i2
+      width: 100%
+@media screen and (max-width: 767px)
+   input, textarea, select
+      -webkit-appearance: none
+      -moz-appearance: none
+      appearance: none
+   .nav__logo
+      margin-left: 62px
+      max-width: 67px
+   .nav__box
+      padding: 12px 0
+   .menu-btn
+      top: 23px
+   .nav 
+      margin-bottom: 36px
+   .header__wrap
+      picture 
+         display: block
+         width: 100%
+   h1 
+      font-size: 32px
+   .header__content ul li p, .main__name
+      font-size: 18px
+      line-height: 22px
+   .header__links
+      flex-direction: column
+   .header__btn
+      margin-right: 0
+      margin-bottom: 12px
+      width: 100%
+   .header__btn2
+      width: 100%
+   .header
+      padding-bottom: 40px
+   .main
+      padding: 40px 0
+   h2 
+      font-size: 28px
+   .main__image img
+      max-height: 230px
+   .main__text
+      margin-bottom: 0
+   .main__info
+      margin-top: 24px
+   .main__content
+      height: auto
+      padding: 12px
+   .pay__flex p, .info__left h3
+      font-size: 21px
+      line-height: 120%
+   .info__left
+      padding: 12px 
+      max-width: 100%
+   .info__item
+      padding: 0px 
+      flex-direction: column
+   .info__right
+      padding: 12px
+      border-top: 1px solid #e0e0e0
+      border-left: none
+      width: 100%
+   .info__right img
+      height: 250px
+      width: 100%
+   .trust .swiper1
+      width: 80%
+      margin: 0
+   .trust .swiper1 .swiper-slide
+      height: 200px
+   .area__wrap h2
+      text-align: center
+      margin-bottom: 22px
+   .area__content
+      width: 100%
+   .area__el
+      flex-direction: column
+      align-items: flex-start
+   .area__el p
+      margin-left: 0
+      margin-top: 23px
+      max-width: 100%
+   .area picture
+      width: 100%
+   .area__info p
+      font-size: 14px
+      line-height: 17px
+   .area__info span
+      margin-top: 58px
+   .area__info
+      padding: 0
+      min-height: inherit
+      margin-left: 12px
+   .area__item
+      padding: 12px
+      img
+         height: 144px
+         width: 120px
+         max-width: 120px 
+         flex: 1 0 auto
+         margin-bottom: 0
+   .why__item span
+      margin-left: 12px
+   .per__wrap
+      padding-bottom: 0
+   .order
+      margin-top: 0
+   .order__item
+      width: 100%
+   .order__flex
+      flex-direction: column-reverse
+      align-items: flex-start
+   .order__form button
+      margin-top: 24px
+      margin-right: 0
+      width: 100%
+   .footer__box #map
+      height: 500px
+   .footer__block
+      padding: 12px
+      max-width: 93%
+      bottom: 12px
+      right: 12px
+   .footer__block p
+      br 
+         display: none
+   .popup-call__box .order__flex
+      width: 100%
+@media screen and (max-width: 576px)
+   button:active, button:focus 
+      outline: none
+   button::-moz-focus-inner 
+      border: 0
+   a:active, a:focus
+      outline: none
+   input, textarea
+      outline: none
+   input:active, textarea:active
+      outline: none
+   input:focusout
+      outline: none
+   .mob 
+      display: block !important
+   .container
+      padding: 0 12px
+   .nav__logo
+      margin-left: 55px
+   .nav__list
+      margin-left: 0
+   .pay__block
+      padding: 12px
+   .pay__list li
+      margin-bottom: 12px
+   .info__item:last-child img 
+      bottom: 0
+      width: 186px
+      right: -45px
+   .trust .swiper1
+      width: 79%
+   .area__item img
+      height: auto
+   .why__item ul
+      padding: 0 12px
+   .why__star 
+      bottom: -35px
+      right: 8px
+      width: 128px
+   .per__wrap
+      padding-right: 0
+   .per__content
+      padding-right: 12px
+   .scheme__item span
+      min-width: 47px
+   .scheme__item p
+      margin-left: 20px
+   .scheme__pic
+      margin-top: 12px
+   .order__box h2
+      font-size: 28px
+      line-height: 34px 
+      margin-bottom: 32px
+   .footer__block p
+      br 
+         display: none
+   .footer__block p 
+      font-size: 16px
+      line-height: 21px
+   .footer__block span
+      font-size: 14px
+      margin-bottom: 12px
+   .ser__item a
+      width: 100%
+   .footer__area
+      padding: 12px
+   .footer__area h3
+      margin-bottom: 12px
+   .footer__top
+      padding: 12px
+      flex-direction: column 
+      align-items: flex-start
+   .footer__info
+      margin-bottom: 24px
+   .order__flex .checkbox .custom-checkbox + label span a
+      border-bottom: none !important
+      text-decoration: underline
+   .popup-call__box
+      padding: 55px 12px 12px
+   .box-modal__close
+      width: 45px
+      height: 45px
+      right: 10px
+      top: 10px
+      img 
+         width: 100%
+
