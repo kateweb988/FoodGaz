@@ -24,10 +24,10 @@
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="">
 	<meta property="og:description" content="">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/vjik/arcticModal@master/arcticmodal/jquery.arcticmodal.css">
-	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="css/articmodal.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 
 </head>
@@ -67,6 +67,13 @@
 						<a href="tel:+79802010090" class="nav__tel">
 							+7 980 201-00-90
 						</a>
+					</div>
+				</div>
+				<div class="nav__area">
+					<div class="pp">
+						<img src="img/mail-mob.svg" alt="" class="svg">
+					</div>
+					<div>
 						<a href="mailto:zakaz@foodgaz.ru" class="nav__mail">
 							zakaz@foodgaz.ru
 						</a>
@@ -194,14 +201,14 @@
 							<a href="#" class="header__btn btn">
 								Оставить заявку <div> <img src="img/btn.svg" alt="" class="svg"> </div>
 							</a>
-							<a href="#" class="header__btn2 btn">
+							<a href="#main" class="header__btn2 go_to">
 								Подробнее о продукции <div> <img src="img/btn2.svg" alt="" class="svg"> </div>
 							</a>
 						</div>
 					</div>
 					<picture>
 						<source srcset="img/main2.webp" media="(max-width: 768px)">
-						<img src="img/main1.webp" alt="" class="header__img">
+						<img src="img/main1.png" alt="" class="header__img">
 					</picture>
 				</div>
 			</div>
@@ -444,7 +451,7 @@
 						</div>
 						<div class="pay__item">
 							<div class="pay__block">
-								<img src="img/pay2.webp" alt="">
+								<img src="img/pay2.png" alt="">
 								<div class="pay__flex q">
 									<p>
 										Манипулятор
@@ -497,7 +504,7 @@
 								</div>
 								<div class="pay__el q">
 									<p>
-										10 000 ₽
+										90 — 100 км
 									</p>
 									<p>
 										11 000 ₽
@@ -606,7 +613,7 @@
 							</ul>
 						</div>
 						<div class="info__right">
-							<img src="img/info1.webp" alt="">
+							<img src="img/info1.png" alt="">
 						</div>
 					</div>
 					<div class="info__item">
@@ -662,7 +669,7 @@
 							</ul>
 						</div>
 						<div class="info__right">
-							<img src="img/info3.webp" alt="">
+							<img src="img/info3.png" alt="">
 						</div>
 					</div>
 					<div class="info__item">
@@ -710,6 +717,24 @@
 						<div class="swiper-slide">
 							<img src="img/logo2.svg" alt="">
 						</div>
+						<div class="swiper-slide">
+							<img src="img/logo1.svg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/logo2.svg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/logo3.svg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/logo4.svg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/logo1.svg" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/logo2.svg" alt="">
+						</div>
 					</div>
 				</div>
 			</div>
@@ -739,7 +764,7 @@
 						</div>
 						<picture>
 							<source srcset="img/area33.webp" media="(max-width: 768px)">
-							<img src="img/area3.webp" alt="" class="header__img">
+							<img src="img/area3.png" alt="" class="header__img">
 						</picture>
 					</div>
 					<div class="area__bottom">
@@ -961,7 +986,7 @@
 					</div>
 					<picture>
 						<source srcset="img/per2.webp" media="(max-width: 768px)">
-						<img src="img/per1.webp" alt="" class="per__img">
+						<img src="img/per1.png" alt="" class="per__img">
 					</picture>
 				</div>
 			</div>
@@ -1008,7 +1033,7 @@
 					</div>
 					<picture>
 						<source srcset="img/scheme2.webp" media="(max-width: 576px)">
-						<img src="img/scheme.webp" alt="" class="scheme__pic">
+						<img src="img/scheme.png" alt="" class="scheme__pic">
 					</picture>
 				</div>
 			</div>
@@ -1038,8 +1063,7 @@
 								<ul class="accordeon__panel">
 									<li class="panel__text">
 										<p class="panel__info">
-											Для подбора газовой смеси рекомендуем использовать таблицу подбора МГС или
-											проконсультироваться с нашим специалистом.
+											На газ предоставляется паспорт качества продукции
 										</p>
 									</li>
 								</ul>
@@ -1049,8 +1073,8 @@
 								<ul class="accordeon__panel">
 									<li class="panel__text">
 										<p class="panel__info">
-											Для подбора газовой смеси рекомендуем использовать таблицу подбора МГС или
-											проконсультироваться с нашим специалистом.
+											Доставка осуществляется автомобилями ГАЗель (до 23 баллонов) и манипулятором (до 115
+											баллонов в кассетах). <a href="#pay" class="go_to"> Подробнее про доставку </a>
 										</p>
 									</li>
 								</ul>
@@ -1348,29 +1372,25 @@
 		ymaps.ready(init);
 
 		function init() {
+			// Координаты метки
+			const coords = [55.73996, 37.78281];
+
 			var myMap = new ymaps.Map("map", {
-				// Центр карты, указываем коордианты
-				center: [55.73996, 37.78281],
-				// Масштаб, тут все просто
-				zoom: 13,
-				// Отключаем все элементы управления
+				center: coords, // центр карты = координаты метки
+				zoom: 12,
 				controls: []
 			});
 
 			var myGeoObjects = [];
 
-			// Наша метка, указываем коордианты
-			myGeoObjects = new ymaps.Placemark([55.73996, 37.78281], {
+			myGeoObjects = new ymaps.Placemark(coords, {
 				balloonContentBody: 'FoodGaz',
 			}, {
 				iconLayout: 'default#image',
-				// Путь до нашей картинки
 				iconImageHref: 'img/map.svg',
-				// Размер по ширине и высоте
 				iconImageSize: [170, 180],
-				// Смещение левого верхнего угла иконки относительно
-				// её «ножки» (точки привязки).
-				iconImageOffset: [-35, -35]
+				// Центр иконки (чтобы метка была по центру карты)
+				iconImageOffset: [-85, -90]
 			});
 
 			var clusterer = new ymaps.Clusterer({
@@ -1380,19 +1400,18 @@
 
 			clusterer.add(myGeoObjects);
 			myMap.geoObjects.add(clusterer);
-			// Отлючаем возможность изменения масштаба
-			myMap.behaviors.disable('scrollZoom');
 
+			// Отключаем масштаб колесиком
+			myMap.behaviors.disable('scrollZoom');
 		}
 	</script>
 
-	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.3.1.min.js?ver=5.1"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/arcticmodal.js"></script>
+	<script src="js/swiper-bundle.min.js"></script>
+	<script src="js/validate.js"></script>
 	<script src="js/all.js"></script>
-	<script src="https://cdn.jsdelivr.net/gh/vjik/arcticModal@master/arcticmodal/jquery.arcticmodal.js"></script>
-	<!-- Подключен файл-валидатор, для проверки формы на заполненность  -->
-	<script type="text/javascript"
-		src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+
 </body>
 
 </html>

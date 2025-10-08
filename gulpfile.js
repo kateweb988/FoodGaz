@@ -67,7 +67,7 @@ function styles() {
 }
 
 function sctipts() {
-	return gulp.src(['src/js/main.js'])
+	return gulp.src(['src/js/main.js', 'src/js/swiper-bundle.min.js', 'src/js/jquery-3.3.1.min.js', 'src/js/arcticmodal.js', 'src/js/validate.js'])
 		.pipe(concat('all.js'))
 		.pipe(gulp.dest('dev/js/'))
 		.pipe(browserSync.stream());

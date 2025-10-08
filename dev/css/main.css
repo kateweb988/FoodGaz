@@ -306,10 +306,10 @@ html *::-webkit-scrollbar-thumb {
     position: relative;
     top: 0px; }
   .btn:hover {
-    transform: scale(0.93);
+    transform: scale(1.04);
     color: white; }
     .btn:hover div {
-      transform: scale(0.93); }
+      transform: scale(1.04); }
 
 .btn:hover div {
   transform: rotate(360deg); }
@@ -851,7 +851,7 @@ ul.info li {
   font-size: 14px;
   font-weight: 600;
   line-height: 17px;
-  margin-bottom: 1px; }
+  margin-bottom: 5px; }
 
 .nav__mail {
   color: #1a1a1a;
@@ -916,7 +916,8 @@ ul.info li {
         .header__content ul li:last-child {
           margin-bottom: 0; }
   .header__img {
-    display: block; }
+    display: block;
+    max-width: 760px; }
   .header__sub {
     margin-bottom: 16px;
     color: #00694b;
@@ -931,9 +932,37 @@ ul.info li {
     width: 259px;
     border: 1px solid #e0e0e0;
     background: transparent;
-    color: #1a1a1a; }
+    color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.3s;
+    box-sizing: border-box;
+    height: 48px;
+    border-radius: 24px;
+    padding: 4px 4px 4px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px; }
+    .header__btn2 div {
+      width: 40px;
+      height: 100%;
+      background: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: 1.2s;
+      transform: rotate(0deg);
+      padding-left: 0.7px;
+      position: relative;
+      top: 0px; }
     .header__btn2:hover {
+      transform: scale(1.04);
       color: #1a1a1a; }
+      .header__btn2:hover div {
+        transform: scale(1.04);
+        transform: rotate(360deg); }
 
 .main {
   padding: 52px 0 80px; }
@@ -951,7 +980,7 @@ ul.info li {
     align-items: flex-start;
     transition: 0.3s; }
     .main__item:hover {
-      transform: scale(0.93); }
+      transform: scale(1.04); }
   .main__wrap {
     margin-bottom: 120px; }
     .main__wrap:last-child {
@@ -1270,7 +1299,7 @@ ul.info li {
       background: #f1f1f1;
       transition: 0.3s; }
       .trust .swiper1 .swiper-slide:hover {
-        transform: scale(0.93); }
+        transform: scale(1.04); }
       .trust .swiper1 .swiper-slide img {
         object-fit: contain;
         max-width: 100%;
@@ -1431,7 +1460,8 @@ ul.info li {
   .per__img {
     position: absolute;
     left: -30px;
-    top: -48px; }
+    top: -48px;
+    max-width: 677px; }
   .per__content h2 {
     margin-bottom: 32px; }
   .per__content ul li {
@@ -1523,7 +1553,7 @@ ul.info li {
     border-radius: 24px;
     overflow: hidden;
     box-sizing: border-box;
-    margin-bottom: 12px;
+    margin-bottom: 0px;
     padding-bottom: 16px; }
     .faq .accordeon__item:last-child {
       margin-bottom: 0; }
@@ -1559,6 +1589,9 @@ ul.info li {
     .faq .panel__info a {
       color: #00694b;
       border-bottom: 1px solid #00694b; }
+      .faq .panel__info a:hover {
+        color: #000;
+        border-bottom: 1px solid #000; }
 
 .checkbox {
   margin-top: 44px; }
@@ -1967,11 +2000,32 @@ input.error:-moz-placeholder {
         margin-bottom: 4px; }
         .menu__bottom .nav__area p {
           font-size: 14px; }
+        .menu__bottom .nav__area .pp {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-radius: 50px;
+          background: white;
+          width: 40px;
+          height: 40px;
+          margin-right: 12px; }
+          .menu__bottom .nav__area .pp .svg {
+            width: 57%;
+            height: auto; }
+            .menu__bottom .nav__area .pp .svg path {
+              stroke: #00694b; }
       .menu__bottom .nav__btn {
         display: flex;
         width: 100%;
         text-align: center;
         justify-content: center; }
+    .menu .nav__mail {
+      color: #1a1a1a;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 17px; }
+    .menu .nav__tel {
+      margin-bottom: 0; }
   #toggleMenu {
     background: transparent;
     border: none;
@@ -1999,19 +2053,14 @@ input.error:-moz-placeholder {
     display: flex; }
   .nav__box {
     position: relative; }
-  .header__wrap {
-    flex-direction: column-reverse; }
-  .header__content {
-    width: 100%;
-    max-width: 100%;
-    margin-top: 24px; }
   .main h2 {
     margin-bottom: 32px; }
   .main__row {
     gap: 12px;
-    flex-direction: column; }
+    flex-wrap: wrap;
+    justify-content: center; }
   .main__item {
-    width: 100%; }
+    width: 49%; }
   .main__wrap {
     margin-bottom: 80px; }
   .pay h2 {
@@ -2053,16 +2102,13 @@ input.error:-moz-placeholder {
   .trust .swiper1 {
     width: 100%;
     overflow: visible; }
-  .area__top {
-    padding: 12px;
-    flex-direction: column;
-    align-items: flex-start; }
   .area__content {
     max-width: 100%; }
   .area__el {
     margin-bottom: 34px; }
   .area picture {
-    margin: 56px auto 0; }
+    margin: 100px auto 0;
+    width: 45%; }
   .area__info {
     padding: 12px;
     background: transparent; }
@@ -2192,9 +2238,30 @@ input.error:-moz-placeholder {
     margin-bottom: 8px;
     margin-right: 0 !important; }
   .footer__text {
-    margin-bottom: 24px; } }
+    margin-bottom: 24px; }
+  .header__img {
+    display: block;
+    max-width: 760px;
+    width: 100%; }
+  h1 {
+    font-size: 50px; } }
 
 @media (max-width: 991px) {
+  .area picture {
+    margin: 40px auto 0;
+    width: 100%; }
+  .area__top {
+    padding: 12px;
+    flex-direction: column;
+    align-items: flex-start; }
+  .main__item {
+    width: 100%; }
+  .header__wrap {
+    flex-direction: column-reverse; }
+  .header__content {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 24px; }
   input, textarea, select {
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -2423,7 +2490,7 @@ input.error:-moz-placeholder {
   .order__box h2 {
     font-size: 28px;
     line-height: 34px;
-    margin-bottom: 32px; }
+    margin-bottom: 25px; }
   .footer__block p br {
     display: none; }
   .footer__block p {
@@ -2448,11 +2515,37 @@ input.error:-moz-placeholder {
     border-bottom: none !important;
     text-decoration: underline; }
   .popup-call__box {
-    padding: 55px 12px 12px; }
+    padding: 55px 20px 20px;
+    top: -19rem; }
   .box-modal__close {
     width: 45px;
     height: 45px;
     right: 10px;
     top: 10px; }
     .box-modal__close img {
-      width: 100%; } }
+      width: 100%; }
+  .menu {
+    width: 78%; }
+  #toggleMenu {
+    right: -68px; }
+  .menu__bottom .nav__area {
+    padding-right: 10px; }
+  .order__item {
+    margin-bottom: 20px; }
+  .order__item label {
+    margin-bottom: 5px; }
+  .order__form input {
+    padding-bottom: 8px; }
+  .arcticmodal-container_i2 {
+    padding: 24px 10px; }
+  .menu__bottom .nav__area p {
+    font-size: 13px;
+    line-height: 130%; }
+  .btn, .header__btn2 {
+    -webkit-tap-highlight-color: transparent !important; }
+  button, a, .header__btn2 {
+    outline: none !important; }
+  button:focus, a:focus, .header__btn2 {
+    outline: none !important; }
+  .ymaps-2-1-79-copyright__link, .ymaps-2-1-79-gotoymaps, .ymaps-2-1-79-gototaxi, .ymaps-2-1-79-gototech {
+    display: none !important; } }

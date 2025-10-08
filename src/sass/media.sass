@@ -101,11 +101,32 @@
             margin-bottom: 4px
             p 
                font-size: 14px
+            .pp 
+               display: flex
+               align-items: center
+               justify-content: center
+               border-radius: 50px 
+               background: white 
+               width: 40px
+               height: 40px
+               margin-right: 12px
+               .svg
+                  width: 57%
+                  height: auto
+                  path 
+                     stroke: $green
          .nav__btn
             display: flex
             width: 100%
             text-align: center
             justify-content: center
+      .nav__mail
+         color: #1a1a1a
+         font-size: 14px
+         font-weight: 600
+         line-height: 17px
+      .nav__tel 
+         margin-bottom: 0
    #toggleMenu
       background: transparent
       border: none
@@ -133,19 +154,14 @@
       display: flex
    .nav__box
       position: relative
-   .header__wrap
-      flex-direction: column-reverse
-   .header__content 
-      width: 100%
-      max-width: 100%
-      margin-top: 24px
    .main h2
       margin-bottom: 32px
    .main__row
       gap: 12px 
-      flex-direction: column
+      flex-wrap: wrap
+      justify-content: center
    .main__item
-      width: 100%
+      width: 49%
    .main__wrap
       margin-bottom: 80px
    .pay h2
@@ -187,17 +203,14 @@
    .trust .swiper1
       width: 100%
       overflow: visible
-   .area__top
-      padding: 12px
-      flex-direction: column 
-      align-items: flex-start
    .area__content
       max-width: 100%
    .area__el
       margin-bottom: 34px
    .area 
       picture 
-         margin: 56px auto 0
+         margin: 100px auto 0
+         width: 45%
    .area__info
       padding: 12px
       background: transparent
@@ -328,7 +341,29 @@
       margin-right: 0 !important
    .footer__text
       margin-bottom: 24px
+   .header__img 
+      display: block
+      max-width: 760px
+      width: 100%
+   h1 
+      font-size: 50px
 @media ( max-width: 991px )
+   .area 
+      picture 
+         margin: 40px auto 0
+         width: 100%
+   .area__top
+      padding: 12px
+      flex-direction: column 
+      align-items: flex-start
+   .main__item
+      width: 100%
+   .header__wrap
+      flex-direction: column-reverse
+   .header__content 
+      width: 100%
+      max-width: 100%
+      margin-top: 24px
    input, textarea, select
       -webkit-appearance: none
       -moz-appearance: none
@@ -558,7 +593,7 @@
    .order__box h2
       font-size: 28px
       line-height: 34px 
-      margin-bottom: 32px
+      margin-bottom: 25px
    .footer__block p
       br 
          display: none
@@ -584,7 +619,8 @@
       border-bottom: none !important
       text-decoration: underline
    .popup-call__box
-      padding: 55px 12px 12px
+      padding: 55px 20px 20px
+      top: -19rem
    .box-modal__close
       width: 45px
       height: 45px
@@ -592,4 +628,28 @@
       top: 10px
       img 
          width: 100%
-
+   .menu
+      width: 78%
+   #toggleMenu
+      right: -68px
+   .menu__bottom .nav__area
+      padding-right: 10px
+   .order__item
+      margin-bottom: 20px
+   .order__item label
+      margin-bottom: 5px
+   .order__form input
+      padding-bottom: 8px
+   .arcticmodal-container_i2
+      padding: 24px 10px
+   .menu__bottom .nav__area p
+      font-size: 13px
+      line-height: 130%
+   .btn, .header__btn2 
+      -webkit-tap-highlight-color: transparent !important
+   button, a, .header__btn2  
+      outline: none !important
+   button:focus, a:focus, .header__btn2  
+      outline: none !important
+   .ymaps-2-1-79-copyright__link, .ymaps-2-1-79-gotoymaps, .ymaps-2-1-79-gototaxi, .ymaps-2-1-79-gototech
+      display: none !important
