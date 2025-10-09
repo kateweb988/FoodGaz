@@ -2542,7 +2542,7 @@ input.error:-moz-placeholder {
   .menu__bottom .nav__area p {
     font-size: 13px;
     line-height: 130%; }
-  .btn, .header__btn2 {
+  .btn, .header__btn2, .faq .accordeon__button {
     -webkit-tap-highlight-color: transparent !important; }
   button, a, .header__btn2 {
     outline: none !important; }
